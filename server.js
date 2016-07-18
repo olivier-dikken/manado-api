@@ -17,7 +17,8 @@ var server = deployd({
 });
 
 // heroku requires these settings for sockets to work
-server.sockets.manager.settings.transports = ["xhr-polling"];
+//server.sockets.manager.settings.transports = ["xhr-polling"];
+server.sockets.server.set( 'transports'. ["xhr-polling"]);
 
 // start the server
 server.listen();
