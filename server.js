@@ -6,11 +6,11 @@ var server = deployd({
   port: process.env.PORT || 5000,
   env: 'production',
   db: {
-    host: 'https://manado.herokuapp.com/',
-    port: 27857,
-    name: 'manado-server',
+    host: 'ds023315.mlab.com',
+    port: 23315,
+    name: 'heroku_c8psdp03',
     credentials: {
-      username: 'username',
+      username: 'admin',
       password: 'password'
     }
   }
