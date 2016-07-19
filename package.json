@@ -10,7 +10,7 @@
     "deployd": "^0.8.8"
   },
   "scripts": {
-	"heroku-postbuild": "dpd keygen && dpd showkey",
+	"postinstall": "dpd keygen && dpd showkey",
     "start": "node server"
   },
   "engines": {
