@@ -10,6 +10,7 @@
     "deployd": "^0.8.8"
   },
   "scripts": {
+	"postinstall": "dpd keygen && dpd showkey",
     "start": "node server"
   },
   "engines": {
