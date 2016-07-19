@@ -1,0 +1,29 @@
+{
+	"type": "Collection",
+	"properties": {
+		"houseName": {
+			"name": "houseName",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "houseName",
+			"order": 0
+		},
+		"userIds": {
+			"name": "userIds",
+			"type": "array",
+			"typeLabel": "array",
+			"required": true,
+			"id": "userIds",
+			"order": 1
+		},
+		"transactions": {
+			"name": "transactions",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "transactions",
+			"order": 2
+		}
+	}
+}

@@ -1,0 +1,53 @@
+{
+	"type": "Collection",
+	"properties": {
+		"username": {
+			"name": "username",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "username",
+			"order": 0
+		},
+		"password": {
+			"name": "password",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "password",
+			"order": 1
+		},
+		"email": {
+			"name": "email",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "email",
+			"order": 2
+		},
+		"creationDate": {
+			"name": "creationDate",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "creationDate",
+			"order": 3
+		},
+		"houseId": {
+			"name": "houseId",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "houseId",
+			"order": 4
+		},
+		"country": {
+			"name": "country",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "country",
+			"order": 5
+		}
+	}
+}
