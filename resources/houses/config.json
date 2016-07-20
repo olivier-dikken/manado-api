@@ -25,12 +25,12 @@
 			"id": "transactions",
 			"order": 2
 		},
-		"houseAdress": {
-			"name": "houseAdress",
+		"houseAddress": {
+			"name": "houseAddress",
 			"type": "string",
 			"typeLabel": "string",
 			"required": true,
-			"id": "houseAdress",
+			"id": "houseAddress",
 			"order": 3
 		}
 	}
