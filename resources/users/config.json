@@ -56,6 +56,14 @@
 			"required": true,
 			"id": "birthDate",
 			"order": 6
+		},
+		"saldo": {
+			"name": "saldo",
+			"type": "number",
+			"typeLabel": "number",
+			"required": true,
+			"id": "saldo",
+			"order": 7
 		}
 	}
 }
