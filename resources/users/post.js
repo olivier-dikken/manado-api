@@ -3,8 +3,6 @@ dpd.users.get({email : this.email.toString()}, function(results, error) {
   if(results.length > 0){
       cancel("email already exists");
   } else { //set time for new account
-    if (this.craetionDate === null){
       this.creationDate = new Date().getTime();
-    }
   }
 });
