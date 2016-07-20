@@ -32,6 +32,14 @@
 			"required": true,
 			"id": "date",
 			"order": 3
+		},
+		"houseId": {
+			"name": "houseId",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "houseId",
+			"order": 4
 		}
 	}
 }
