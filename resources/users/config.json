@@ -48,6 +48,14 @@
 			"required": false,
 			"id": "country",
 			"order": 5
+		},
+		"birthDate": {
+			"name": "birthDate",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "birthDate",
+			"order": 6
 		}
 	}
 }
