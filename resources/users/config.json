@@ -1,29 +1,13 @@
 {
 	"type": "UserCollection",
 	"properties": {
-		"username": {
-			"name": "username",
-			"type": "string",
-			"typeLabel": "string",
-			"required": true,
-			"id": "username",
-			"order": 0
-		},
-		"password": {
-			"name": "password",
-			"type": "string",
-			"typeLabel": "string",
-			"required": true,
-			"id": "password",
-			"order": 1
-		},
 		"email": {
 			"name": "email",
 			"type": "string",
 			"typeLabel": "string",
 			"required": true,
 			"id": "email",
-			"order": 2
+			"order": 0
 		},
 		"creationDate": {
 			"name": "creationDate",
@@ -31,7 +15,7 @@
 			"typeLabel": "string",
 			"required": false,
 			"id": "creationDate",
-			"order": 3
+			"order": 1
 		},
 		"houseId": {
 			"name": "houseId",
@@ -39,7 +23,7 @@
 			"typeLabel": "string",
 			"required": false,
 			"id": "houseId",
-			"order": 4
+			"order": 2
 		},
 		"country": {
 			"name": "country",
@@ -47,7 +31,7 @@
 			"typeLabel": "string",
 			"required": false,
 			"id": "country",
-			"order": 5
+			"order": 3
 		},
 		"birthDate": {
 			"name": "birthDate",
@@ -55,7 +39,7 @@
 			"typeLabel": "string",
 			"required": true,
 			"id": "birthDate",
-			"order": 6
+			"order": 4
 		},
 		"saldo": {
 			"name": "saldo",
@@ -63,7 +47,7 @@
 			"typeLabel": "number",
 			"required": true,
 			"id": "saldo",
-			"order": 7
+			"order": 5
 		}
 	}
 }

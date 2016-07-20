@@ -13,7 +13,7 @@
 			"name": "userIds",
 			"type": "array",
 			"typeLabel": "array",
-			"required": true,
+			"required": false,
 			"id": "userIds",
 			"order": 1
 		},
@@ -24,6 +24,14 @@
 			"required": false,
 			"id": "transactions",
 			"order": 2
+		},
+		"houseAdress": {
+			"name": "houseAdress",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "houseAdress",
+			"order": 3
 		}
 	}
 }
