@@ -1,0 +1,37 @@
+{
+	"type": "Collection",
+	"properties": {
+		"houseName": {
+			"name": "houseName",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "houseName",
+			"order": 0
+		},
+		"recUserId": {
+			"name": "recUserId",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "recUserId",
+			"order": 1
+		},
+		"sendUserId": {
+			"name": "sendUserId",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "sendUserId",
+			"order": 2
+		},
+		"date": {
+			"name": "date",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "date",
+			"order": 3
+		}
+	}
+}
