@@ -26,4 +26,4 @@ var contains = function(needle) {
 };
 
 //if(contains(this.userIds, userIds)){
-console.log(contains(this.userIds, userIds))
+console.log(contains(this.userIds, userIds));

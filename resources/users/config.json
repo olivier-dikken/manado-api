@@ -23,7 +23,7 @@
 			"typeLabel": "string",
 			"required": false,
 			"id": "houseId",
-			"order": 2
+			"order": 6
 		},
 		"country": {
 			"name": "country",
