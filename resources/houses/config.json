@@ -13,7 +13,7 @@
 			"name": "userIds",
 			"type": "array",
 			"typeLabel": "array",
-			"required": false,
+			"required": true,
 			"id": "userIds",
 			"order": 1
 		},
